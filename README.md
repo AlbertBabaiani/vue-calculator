@@ -10,6 +10,10 @@ This is a fully functional, responsive calculator web application built with Vue
 
 ---
 
+## Figma Design
+
+[Figma Link](https://www.figma.com/file/wlEKgsOB7Y9rOT957Elroy/calculator-app?t=sC3BNYhAqHheCO6Z-0)
+
 ## Screenshots
 
 The application includes three professionally designed themes to suit different user preferences.
