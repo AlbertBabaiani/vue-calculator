@@ -1,0 +1,37 @@
+<template>
+  <div class="display">
+    {{ value }}
+  </div>
+</template>
+
+<script setup>
+defineProps({
+  value: {
+    type: String,
+    default: "0",
+    required: true,
+  },
+});
+</script>
+
+<style scoped>
+.display {
+  height: 8rem;
+  background: var(--display);
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+
+  color: var(--color);
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.05831rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem;
+  overflow: hidden;
+}
+</style>

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bg: #3A4663;
+  --bg-secondary: #242D44;
+  --display: #181F33;
+  --color: #FFFFFF;
+  --button-color: #434A59;
+  --button-bg: #EAE3DC;
+  --button-shadow: #B3A497;
+  --button-action: #647198;
+  --button-action-shadow: #414E73;
+  --button-equal: #D03F2F;
+  --button-equal-shadow: #93261A;
+
+  --radius: 0.625rem;
+
+  --slider-bg: #242D44;
+  --slider-toggle: #D03F2F;
+}
+
+.theme-2{
+  --bg: #E6E6E6;
+  --bg-secondary: #D2CDCD;
+  --display: #EEEEEE;
+  --color: #36362C;
+  --button-color: #36362C;
+  --button-bg: #E5E4E1;
+  --button-shadow: #A79E91;
+  --button-action: #378187;;
+  --button-action-shadow: #1B6066;
+  --button-equal: #C85402;
+  --button-equal-shadow: #873901;
+
+  --slider-bg: #D2CDCD;
+  --slider-toggle: #C85402;
+}
+
+.theme-3{
+  --bg: #17062A;
+  --bg-secondary: #1E0936;
+  --display: #1E0936;
+  --color: #FFE53D;
+  --button-color: var(--color);
+  --button-bg: #331C4D;
+  --button-shadow: #881C9E;
+  --button-action: #56077C;
+  --button-action-shadow: #BE15F4;
+  --button-equal: #00DED0;
+  --button-equal-shadow: #6CF9F1;
+
+  --slider-bg: #1E0936;
+  --slider-toggle: #00DED0;
+}
+
+body{
+  font-family: "League Spartan", sans-serif;
+}
+
+.app-container {
+  background: var(--bg);
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s ease-in-out;
+}
