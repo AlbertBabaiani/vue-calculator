@@ -22,7 +22,7 @@ defineProps({
   margin-bottom: 1.5rem;
 
   color: var(--color);
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -31,7 +31,14 @@ defineProps({
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 2rem;
+  padding: 1.5rem;
   overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  .display {
+    padding: 2rem;
+    font-size: 3.5rem;
+  }
 }
 </style>

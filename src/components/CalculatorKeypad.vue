@@ -60,10 +60,11 @@ const getKeyClass = (key) => {
 .keypad {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.56rem;
   background-color: var(--bg-secondary);
   border-radius: var(--radius);
-  padding: 2rem 1.88rem;
+
+  gap: 0.8rem;
+  padding: 1.5rem;
 }
 
 .key {
@@ -114,5 +115,12 @@ const getKeyClass = (key) => {
   transform: translateY(4px);
   box-shadow: none;
   box-shadow: 0 0px 0 0 var(--button-shadow) inset;
+}
+
+@media (min-width: 600px) {
+  .keypad {
+    padding: 2rem 1.88rem;
+    gap: 1.56rem;
+  }
 }
 </style>
